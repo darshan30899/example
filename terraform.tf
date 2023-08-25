@@ -3,7 +3,7 @@ provider "github" {
 }
 
 
-resource "github_repository" "example" {
+resource "github_repository" "you" {
   name        = "example"
   description = "My awesome codebase"
 
