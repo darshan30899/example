@@ -4,8 +4,8 @@ provider "github" {
 
 
 resource "github_repository" "example" {
-  name        = "terraform-rock"
-  description = "My awesome day"
+  name        = "example"
+  description = "My awesome codebase"
 
   visibility = "public"
-}
+}                                                                                                                                                                                                                              
